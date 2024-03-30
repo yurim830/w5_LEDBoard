@@ -95,7 +95,7 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="XvC-Rw-ZyM">
                                         <rect key="frame" x="0.0" y="35.333333333333314" width="162" height="38"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z47-I1-zOR">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z47-I1-zOR">
                                                 <rect key="frame" x="0.0" y="0.0" width="38" height="38"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" image="yellow_circle"/>
@@ -103,7 +103,7 @@
                                                     <action selector="tapTextColorButton:" destination="AvQ-2q-Jkg" eventType="touchUpInside" id="uDG-ue-xqh"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" alpha="0.20000000000000001" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vi5-yB-Vxh">
+                                            <button opaque="NO" alpha="0.20000000000000001" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vi5-yB-Vxh">
                                                 <rect key="frame" x="62" y="0.0" width="38" height="38"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" image="purple_circle"/>
@@ -111,7 +111,7 @@
                                                     <action selector="tapTextColorButton:" destination="AvQ-2q-Jkg" eventType="touchUpInside" id="nsS-Ec-8wd"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" alpha="0.20000000000000001" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wDL-AR-mMr">
+                                            <button opaque="NO" alpha="0.20000000000000001" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wDL-AR-mMr">
                                                 <rect key="frame" x="124" y="0.0" width="38" height="38"/>
                                                 <state key="normal" image="green_circle"/>
                                                 <connections>
@@ -138,7 +138,7 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="MAa-l3-Jcg">
                                         <rect key="frame" x="0.0" y="35.333333333333371" width="162" height="38"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KZH-YO-F96">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KZH-YO-F96">
                                                 <rect key="frame" x="0.0" y="0.0" width="38" height="38"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" image="black_circle"/>
@@ -146,7 +146,7 @@
                                                     <action selector="tapBackgroundColorButton:" destination="AvQ-2q-Jkg" eventType="touchUpInside" id="pKK-fU-PyU"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" alpha="0.20000000298023224" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WmU-wE-d6h">
+                                            <button opaque="NO" alpha="0.20000000298023224" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WmU-wE-d6h">
                                                 <rect key="frame" x="62" y="0.0" width="38" height="38"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" image="blue_circle"/>
@@ -154,7 +154,7 @@
                                                     <action selector="tapBackgroundColorButton:" destination="AvQ-2q-Jkg" eventType="touchUpInside" id="RWO-LP-7Dw"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" alpha="0.20000000298023224" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cjK-nI-S6p">
+                                            <button opaque="NO" alpha="0.20000000298023224" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cjK-nI-S6p">
                                                 <rect key="frame" x="124" y="0.0" width="38" height="38"/>
                                                 <state key="normal" image="orange_cricle"/>
                                                 <connections>
