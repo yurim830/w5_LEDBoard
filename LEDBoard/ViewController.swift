@@ -8,12 +8,20 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet weak var contentsLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        contentsLabel.textColor = .yellow
     }
-
-
+    
+    func changeSettings(text: String?, bgColor: UIColor, labelColor: UIColor) {
+        if let text = text {
+            contentsLabel.text = text
+        }
+        self.view.backgroundColor = bgColor
+        contentsLabel.textColor = labelColor
+    }
 }
 
