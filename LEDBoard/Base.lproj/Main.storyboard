@@ -64,7 +64,7 @@
         <!--설정-->
         <scene sceneID="VO4-A2-ogb">
             <objects>
-                <viewController id="AvQ-2q-Jkg" customClass="SettingsViewController" customModule="LEDBoard" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="AvQ-2q-Jkg" customClass="SettingViewController" customModule="LEDBoard" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="lCm-Me-hm0">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -176,6 +176,9 @@
                                 <rect key="frame" x="169.66666666666666" y="437.66666666666669" width="53.666666666666657" height="34.333333333333314"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="저장"/>
+                                <connections>
+                                    <action selector="tapSaveButton:" destination="AvQ-2q-Jkg" eventType="touchUpInside" id="yhq-KH-sy4"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="u7A-kW-zGG"/>

@@ -13,7 +13,7 @@
 		1A31A36A2BB80A210097602C /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 1A31A3692BB80A210097602C /* Base */; };
 		1A31A36C2BB80A220097602C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A31A36B2BB80A220097602C /* Assets.xcassets */; };
 		1A31A36F2BB80A220097602C /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 1A31A36E2BB80A220097602C /* Base */; };
-		1A31A3772BB850CF0097602C /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A31A3762BB850CF0097602C /* SettingsViewController.swift */; };
+		1A31A3772BB850CF0097602C /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A31A3762BB850CF0097602C /* SettingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +25,7 @@
 		1A31A36B2BB80A220097602C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A31A36E2BB80A220097602C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1A31A3702BB80A220097602C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1A31A3762BB850CF0097602C /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		1A31A3762BB850CF0097602C /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +65,7 @@
 				1A31A36B2BB80A220097602C /* Assets.xcassets */,
 				1A31A36D2BB80A220097602C /* LaunchScreen.storyboard */,
 				1A31A3702BB80A220097602C /* Info.plist */,
-				1A31A3762BB850CF0097602C /* SettingsViewController.swift */,
+				1A31A3762BB850CF0097602C /* SettingViewController.swift */,
 			);
 			path = LEDBoard;
 			sourceTree = "<group>";
@@ -144,7 +144,7 @@
 				1A31A3672BB80A210097602C /* ViewController.swift in Sources */,
 				1A31A3632BB80A210097602C /* AppDelegate.swift in Sources */,
 				1A31A3652BB80A210097602C /* SceneDelegate.swift in Sources */,
-				1A31A3772BB850CF0097602C /* SettingsViewController.swift in Sources */,
+				1A31A3772BB850CF0097602C /* SettingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
